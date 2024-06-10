@@ -82,10 +82,11 @@ Here you will find a list of known URL schemes for popular iOS applications. Thi
 
 Many apps support additional parameter, like Phone, mail, Google Maps
 
-- **Google Maps - Point**: `comgooglemaps://?center=52.3976946,16.8581983&zoom=15`
-- **Phone**: `tel://PHONENR`
-- **Mail - with atributes**: `mailto://foo@example.com?subject=example&body=example`
-
+- **Google Maps - Point:** `comgooglemaps://?center=52.3976946,16.8581983&zoom=15`
+- **Phone:** `tel://PHONENO`
+- **Mail - with atributes:** `mailto://foo@example.com?subject=example&body=example`
+- **FaceTime to user:** `facetime://user@example.com`
+- **FaceTime to user - audio only:** `facetime-audio://user@example.com`
 ## How to Create Your Own URL Scheme
 
 If app do not have URL Schema, you can create own local scheme usign iOS App Shortcuts.
